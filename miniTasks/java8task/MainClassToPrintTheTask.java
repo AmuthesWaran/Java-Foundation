@@ -16,11 +16,11 @@ public class MainClassToPrintTheTask {
 				
 				new Student(120, "Mathi", "Chennai"),
 				new Student(12, "Amuthesh", "Chennai"),
-				new Student(1, "Bharathy", "Chennai"),
-				new Student(2, "Anath", "Chennai"),
-				new Student(113, "Aravind", "Chennai"),
+				new Student(1, "whoever", "Chennai"),
+				new Student(2, "Ananth", "Chennai"),
+				new Student(113, "Arvind", "Chennai"),
 				new Student(143, "Amirtha", "Chennai"),
-				new Student(133, "Aravind", "Chennai"),
+				new Student(133, "whatever", "Chennai"),
 				new Student(13, "Aravindthan", "Chennai"),
 				new Student(134, "Suman", "Chennai"),
 				new Student(124, "Sona", "Chennai")
