@@ -1,4 +1,4 @@
-package exceptionHandling;
+package exceptionHandlingUncheckedException;
 
 import java.util.Scanner;
 

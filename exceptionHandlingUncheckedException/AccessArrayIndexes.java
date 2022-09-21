@@ -1,4 +1,4 @@
-package exceptionHandling;
+package exceptionHandlingUncheckedException;
 
 
 public class AccessArrayIndexes {

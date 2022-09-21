@@ -1,4 +1,4 @@
-package exceptionHandling;
+package exceptionHandlingUncheckedException;
 
 import java.io.FileInputStream;
 import java.util.Scanner;
