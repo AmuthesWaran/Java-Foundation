@@ -102,6 +102,8 @@ public class MainClass {
 //			System.out.println((test1.substring(test1.indexOf("where") + 6, test1.indexOf(" order by"))).toLowerCase());
 //			
 //		}
+		
+	
 //		
 //		else {
 //			
@@ -423,14 +425,14 @@ public class MainClass {
 		
 		
 		
-		String test0 = "select count(city),sum(win_by_runs),min(win_by_runs),max(win_by_runs),avg(win_by_runs) from ipl.csv";
-
-
-		String test1 = "select count(city),win_by_runs from ipl.csv where season > 2014 group by win_by_runs";
-
-
-		String test2 = "select * from ipl.csv";
-		
+//		String test0 = "select count(city),sum(win_by_runs),min(win_by_runs),max(win_by_runs),avg(win_by_runs) from ipl.csv";
+//
+//
+//		String test1 = "select count(city),win_by_runs from ipl.csv where season > 2014 group by win_by_runs";
+//
+//
+//		String test2 = "select * from ipl.csv";
+//		
 //		int res0 = test0.indexOf("select");
 //		int res1 = test0.indexOf(" from");
 //		
@@ -438,38 +440,82 @@ public class MainClass {
 ////		System.out.println(result.toString());
 		
 //		
-		int res0 = test1.indexOf("select") + 7;
-		int res1 = test1.indexOf(",");
-		
-		String result[] = test1.substring(test1.indexOf("select") + 7, test1.indexOf(",")).split(" ");
+//		int res0 = test1.indexOf("select") + 7;
+//		int res1 = test1.indexOf(",");
+//		
+//		String result[] = test1.substring(test1.indexOf("select") + 7, test1.indexOf(",")).split(" ");
 //		System.out.println(result);
 		
 		
-		for (String string : result) {
-			System.out.println(string);
-		}
+//		for (String string : result) {
+//			System.out.println(string);
+//		}
+//		
+//		String test3 = null;
+//		
+//		if (test3.contains("*"))
+//		{
+//			return null;
+//		}
+//		
+//		else if ( test3.contains("sum")  )
+//		{
+//			return test1.substring(test1.indexOf("select") + 7, test1.indexOf(",")).split(" ");
+//		}
+//		
+//		else
+//		{
+//			return test0.substring(test0.indexOf("select") + 7, test0.indexOf(" from")).split(",")
+//		}
+//		
 		
-		String test3 = null;
+		// 
+//		String test0 = "select city,winner,player_match from ipl.csv where season > 2014 and city ='Bangalore'";
+//		String test0 = "select city,winner,player_match from ipl.csv where season > 2014 or city ='Bangalore'";
+//		String test0 = "select city,winner,player_match from ipl.csv where season > 2014 and city ='Bangalore' or city ='Delhi'";
+//		String test3 = "select city,winner,player_match from ipl1.csv group by winner"; //solved
+//		
+//		String[] result = test0.split(" ");
 		
-		if (test3.contains("*"))
-		{
-			return null;
-		}
+//		for (String string : result) {
+//			
+//			System.out.println(string);
+//			
+//		}
 		
-		else if ( test3.contains("sum")  )
-		{
-			return test1.substring(test1.indexOf("select") + 7, test1.indexOf(",")).split(" ");
-		}
-		
-		else
-		{
-			return test0.substring(test0.indexOf("select") + 7, test0.indexOf(" from")).split(",")
-		}
-		
-		
-		
-		
-		
+//		String getLogical = "";
+//		if (test0.contains("where")) {
+//			
+//			//code goes here
+//			
+//
+//			
+//			for (int i = 0; i < result.length; i++) {
+//				
+//				if(result[i].equals("and") || result[i].equals("or"))
+//				{
+//					
+//					getLogical =   result[i] + " " + getLogical;
+//				}
+//			
+//				
+//			}
+//			System.out.println(getLogical);
+			//test 0 - getLogical = and<space>
+			//test 1 - getLogical = or<space>
+			//test 2 - getLogical = or<space>and
+			
+//			test0 =and
+			
+			
+			
+//		} else {
+//			
+//			System.out.println("null");
+//			
+//		}
+//		
+//		----------------------------------assignment 2-----------------------------------------------
 		
 		
 		
