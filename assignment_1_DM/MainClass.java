@@ -1,8 +1,13 @@
 package assignment_1_DM;
 
+import java.util.Arrays;
+
 import javaCollections.arrayList;
 
 public class MainClass {
+
+	private static String substring;
+	private static String[] split;
 
 	public static void main(String[] args) {
 
@@ -517,18 +522,43 @@ public class MainClass {
 //		
 //		----------------------------------assignment 2-----------------------------------------------
 		
+//		String test0 = "select winner,season,team1,team2 from ipl.csv where season > 2014 group by season order by team1";
 		
+//		int index = test0.indexOf("group by");
+//		System.out.println(index);
+//		
+//		substring = test0.substring(66);
+//		
+//		System.out.println(substring);
+//		
+//		
+//		
+//		
+//		if(test0.contains("order by")) {
+//			String[] result = test0.substring(test0.indexOf("group by ") + 9, test0.indexOf("order by")).split(" ");
+//		}
+//		
+//		else if(test0.contains("group by"))
+//		{
+//			String[] result =  test0.substring(test0.indexOf("group by ") + 9).split(" ");
+//		}
+//		
+//		else {
+//			String[] result = null;
 		
+//		groupByFields = Arrays.asList(queryString.split(" group by ")[1].split(" order by ")[0].split("\\s*,\\s*"));
 		
+		String test0 = "select winner,season,team1,team2 from ipl.csv where season > 2014 group by season order by team1";
+		String split[] = test0.split(" group by ")[1].split(" order by ")[0].split(" ");
 		
+		System.out.println(split);
 		
+//		for (String string : split) {
+//			System.out.println(string);
+//		}
 		
-		
-		
-		
-		
-		
-		
+	
 	}
-
+		
+	
 }
