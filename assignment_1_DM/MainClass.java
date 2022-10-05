@@ -1,8 +1,13 @@
 package assignment_1_DM;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.Arrays;
+import java.util.Scanner;
 
 import javaCollections.arrayList;
+import loops.ForLoop;
 
 public class MainClass {
 
@@ -548,16 +553,70 @@ public class MainClass {
 		
 //		groupByFields = Arrays.asList(queryString.split(" group by ")[1].split(" order by ")[0].split("\\s*,\\s*"));
 		
-		String test0 = "select winner,season,team1,team2 from ipl.csv where season > 2014 group by season order by team1";
-		String split[] = test0.split(" group by ")[1].split(" order by ")[0].split(" ");
-		
-		System.out.println(split);
-		
+//		String test0 = "select winner,season,team1,team2 from ipl.csv where season > 2014 group by season order by team1";
+//		String split[] = test0.split(" group by ")[1].split(" order by ")[0].split(" ");
+//		
+//		System.out.println(split);
+//		
 //		for (String string : split) {
 //			System.out.println(string);
 //		}
 		
-	
+//		String test0 = "select max(city),winner from ipl.csv where season > 2014 and city ='Bangalore' or city ='Delhi' group by winner";
+//		String test0 = "select max(city),max(winner),count(team1) from ipl.csv where season > 2014 and city ='Bangalore' or city ='Delhi' group by winner";
+//		String test0 = "select max(city) from ipl.csv where season > 2014 and city ='Bangalore' or city ='Delhi' group by winner order by team1";
+		
+		
+//		String aggFn = test0.split("from")[0].split("\\(")[0].split(" ")[1];
+//		String aggFn = test0.split("from")[0].split("\\(")[1].split("\\)")[0];;
+		
+		
+//		String reqString = test0.substring(test0.indexOf("select ") + 7 , test0.indexOf(" from "));
+		
+//		System.out.println(reqString);
+		
+//		String[] res = reqString.split(",");
+		
+		
+		
+		
+		
+//		String[] aggFn = test0.split("from")[0].split(",");
+		
+//		String result = test0.split;
+		
+//		System.out.println(aggFn);
+		
+//		for (String string : res) {
+//			System.out.println(string);
+///		}
+
+//----------------------------------------------------Assignment 3 -------------------------------------------------------------
+		
+		String path = "C:\\Users\\amuth\\Downloads\\temp.csv";
+		
+//		FileReader fr = new FileReader(path);
+		
+		
+		
+//		Scanner s;
+//		try {
+//			s = new Scanner(new File(path));
+//			s.useDelimiter(",");
+////			while (s.hasNext()) {
+////			System.out.println(s.next());
+////			}
+//			
+//			for (int i = 0; i < 5; i++) {
+//				System.out.println(s.next()); 
+//			}
+//			
+//			s.close();
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
 	}
 		
 	
