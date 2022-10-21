@@ -593,7 +593,7 @@ public class MainClass {
 
 //----------------------------------------------------Assignment 3 -------------------------------------------------------------
 		
-		String path = "C:\\Users\\amuth\\Downloads\\temp.csv";
+//		String path = "C:\\Users\\amuth\\Downloads\\temp.csv";
 		
 //		FileReader fr = new FileReader(path);
 		
@@ -617,6 +617,35 @@ public class MainClass {
 //			e.printStackTrace();
 //		}
 //		
+//		String test0 = "select city,winner,player_match from ipl.csv where season > 2014";
+//		String test0 = "select city1,winner,player_match from ipl1.csv where season > 2014";
+//		String test0 = "select * from ipl.csv";
+		
+//		int indexOfFrom = test0.indexOf("from") + 5;
+//		int indexOfcsv = test0.indexOf("csv") + 3;
+//		
+//		System.out.println(indexOfFrom);
+//		System.out.println(indexOfcsv);
+//		
+////		String tableName =  test0.substring(indexOfFrom, indexOfcsv);
+//		String tableName =  test0.substring(test0.indexOf("from") + 5, test0.indexOf("csv") + 3);
+//		
+//		System.out.println(tableName);
+//		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 		
 	
