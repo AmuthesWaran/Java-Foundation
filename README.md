@@ -1,2 +1,2 @@
 # Java-Foundation
-Java beginner workouts
+An introductory Java beginner programs and workouts
